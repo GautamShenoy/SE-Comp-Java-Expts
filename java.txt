@@ -1,0 +1,24 @@
+private methods in interface should have a body
+default methods in interface has a body
+protected modifier not allowed in interface
+variables are always static and final
+static methods should have a body and cannot be overridden in 
+implementing class unlike default methods
+
+while using vector.get(index i) --> element at that index will be removed
+eg vector = [1,2,3,4,5]
+vector.remove(1) --> 2 will be deleted and not 1
+vector.remove('1') -->nothing will happen (no error)
+
+for method overriding we make use of type signature right ?
+ha so that type signature is just what is inside the parameter 
+list and not return type
+eg : public void method() {...}
+     public boolean method() {...} (wrong .. cant do)
+
+
+when you use private or static access modifiers in base class for 
+any method then if you use the same name to define other function
+(like overriding) in derived class that time the JVM will 
+create seperate functions (so basically you wont have access to
+base class methods of that name).
